@@ -1,0 +1,21 @@
+nb:
+  plugins:
+    css_and_js_files:
+      title: Css And Js Files
+  admin:
+    css_and_js_files:
+      actions:
+        create_new: Lag en ny Css And Js File
+        reorder: Endre rekkefølgen på Css And Js Files
+        reorder_done: Ferdig å endre rekkefølgen Css And Js Files
+      records:
+        title: Css And Js Files
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Css And Js Files enda. Klikk på "Lag en ny Css And Js File" for å legge til din første css and js file.
+      css_and_js_file:
+        view_live_html: Vis hvordan denne css and js file ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne css and js file
+        delete: Fjern denne css and js file permanent
+  css_and_js_files:
+    show:
+      other: Andre Css And Js Files

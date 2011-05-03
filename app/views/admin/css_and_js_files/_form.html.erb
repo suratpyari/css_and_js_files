@@ -1,0 +1,36 @@
+<%= form_for [:admin, @css_and_js_file] do |f| -%>
+  <%= render :partial => "/shared/admin/error_messages", :locals => {
+          :object => @css_and_js_file,
+          :include_object_name => true
+        } %>
+  
+  <div class='field'>
+    <%= f.label :name -%>
+    <%= f.text_field :name, :class => 'larger widest' -%>
+  </div>
+  
+  <div class='field'>
+    <%= f.label :file_type -%>
+    <%= f.select :file_type, ['js', 'css'] -%>
+  </div>
+
+  <div class='field'>
+    <%= f.label :content -%>
+    <%= f.text_area :content, :class => 'widest' -%>
+  </div>
+  
+  <%= render :partial => "/shared/admin/form_actions",
+              :locals => {
+                :f => f,
+                :continue_editing => false,
+                :delete_title => t('delete', :scope => 'admin.css_and_js_files.css_and_js_file'),
+                :delete_confirmation => t('message', :scope => 'shared.admin.delete', :title => @css_and_js_file.name)
+              } %>
+<% end -%>
+<% content_for :javascripts do %>
+  <script>
+    $(document).ready(function(){
+      page_options.init(false, '', '');
+    });
+  </script>
+<% end %>

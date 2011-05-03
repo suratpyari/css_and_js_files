@@ -1,0 +1,25 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    css_and_js_files:
+      title: Css And Js Files
+  admin:
+    css_and_js_files:
+      actions:
+        create_new: CREATE NEW Css And Js File
+        reorder: REORDR Css And Js Files
+        reorder_done: DUN REORDERIN Css And Js Files
+      records:
+        title: Css And Js Files
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Css And Js Files YET. CLICK "CREATE NEW Css And Js File" 2 ADD UR FURST css and js file.
+      css_and_js_file:
+        view_live_html: VIEW DIS css and js file LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS css and js file
+        delete: REMOOV DIS css and js file FOREVR
+  css_and_js_files:
+    show:
+      other: OTHR Css And Js Files

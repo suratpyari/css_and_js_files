@@ -1,0 +1,25 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    css_and_js_files:
+      title: Css And Js Files
+  admin:
+    css_and_js_files:
+      actions:
+        create_new: Add New Css And Js File
+        reorder: Reorder Css And Js Files
+        reorder_done: Done Reordering Css And Js Files
+      records:
+        title: Css And Js Files
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Css And Js Files yet. Click "Add New Css And Js File" to add your first css and js file.
+      css_and_js_file:
+        view_live_html: View this css and js file live <br/><em>(opens in a new window)</em>
+        edit: Edit this css and js file
+        delete: Remove this css and js file forever
+  css_and_js_files:
+    show:
+      other: Other Css And Js Files

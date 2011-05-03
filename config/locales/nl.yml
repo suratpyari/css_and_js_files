@@ -1,0 +1,21 @@
+nl:
+  plugins:
+    css_and_js_files:
+      title: Css And Js Files
+  admin:
+    css_and_js_files:
+      actions:
+        create_new: Maak een nieuwe Css And Js File
+        reorder: Wijzig de volgorde van de Css And Js Files
+        reorder_done: Klaar met het wijzingen van de volgorde van de Css And Js Files
+      records:
+        title: Css And Js Files
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Css And Js Files. Druk op 'Maak een nieuwe Css And Js File' om de eerste aan te maken.
+      css_and_js_file:
+        view_live_html: Bekijk deze css and js file op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze css and js file
+        delete: Verwijder deze css and js file voor eeuwig
+  css_and_js_files:
+    show:
+      other: Andere Css And Js Files

@@ -1,0 +1,15 @@
+<li class='clearfix record <%= cycle("on", "on-hover") %>' id="<%= dom_id(css_and_js_file) -%>">
+  <span class='title'>
+    <%= css_and_js_file.file_name %>
+    <span class="preview">&nbsp;</span>
+  </span>
+  <span class='actions'>
+    <%= link_to refinery_icon_tag("application_edit.png"), edit_admin_css_and_js_file_path(css_and_js_file),
+         :title => t('.edit') %>
+    <%= link_to refinery_icon_tag("delete.png"), admin_css_and_js_file_path(css_and_js_file),
+        :class => "cancel confirm-delete",
+        :title => t('.delete'),
+        :confirm => t('message', :scope => 'shared.admin.delete', :title => css_and_js_file.name),
+        :method => :delete %>
+  </span>
+</li>
