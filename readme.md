@@ -1,4 +1,4 @@
-# css_and_js_files plugin for [RefineryCMS](http://www.refinerycms.com) ([Github]())
+# css_and_js_files plugin for [RefineryCMS](http://www.refinerycms.com) ([Github](https://github.com/suratpyari/css_and_js_files))
 
 By: [Surat Pyari]()
 
